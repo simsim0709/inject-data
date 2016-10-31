@@ -18,7 +18,7 @@ Package.onTest(function(api) {
   api.use('tinytest', ['client', 'server']);
   api.use('http', 'server');
   api.use('random', 'server');
-  api.use('meteorhacks:picker@1.0.4', 'server');
+  api.use('meteorhacks:picker@1.0.3', 'server');
 
   api.addFiles([
     'tests/utils.js'
