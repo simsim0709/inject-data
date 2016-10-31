@@ -3,9 +3,9 @@ var path = Npm.require('path');
 
 Package.describe({
   "summary": "A way to inject data to the client with initial HTML",
-  "version": "2.0.0",
-  "git": "https://github.com/meteorhacks/inject-data",
-  "name": "meteorhacks:inject-data"
+  "version": "2.0.1",
+  "git": "https://github.com/simsim0709/inject-data",
+  "name": "thelohoadmin:inject-data"
 });
 
 Package.onUse(function(api) {
@@ -18,7 +18,7 @@ Package.onTest(function(api) {
   api.use('tinytest', ['client', 'server']);
   api.use('http', 'server');
   api.use('random', 'server');
-  api.use('meteorhacks:picker@1.0.1', 'server');
+  api.use('meteorhacks:picker@1.0.4', 'server');
 
   api.addFiles([
     'tests/utils.js'
